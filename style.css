@@ -1,0 +1,80 @@
+.gradient-background {
+    background: linear-gradient(300deg, #756AB6, #AC87C5, #E0AED0, #FFE5E5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#cloudright {
+    display: flex;
+    justify-content: flex-end;  
+}
+
+#cloudlift {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#head div div div h1 {
+    color: #756AB6;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#title div div h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+
+#final div div h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+
+#head div div div p {
+    color: #AC87C5;
+    font-size: 28px;
+    font-weight: 450;
+}
+
+#title div div div div button {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.profile-img {
+    height: 100;
+    border: 5px solid rgb(25, 24, 24);
+    border-radius: 50%;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 40%;
+  }  
+
+#hanging-icons li{
+    list-style: none;
+}
+
+#hanging-icons ul {
+    padding-left: 0;
+}
+
+#hanging-icons a {
+    color: #cd3ea0;
+}
